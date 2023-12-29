@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+    background-clip: difference;
+}
+form{
+   
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    right: 45%;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid rgb(234, 110, 110);
+    border-left: 2px solid rgb(234, 110, 110);
+    width: 200px;
+    background-color:transparent;
+    padding: 5px;
+    color: white;
+    transition: 0.5s ease;
+}
+input:focus{
+    outline: none;
+    background-color: rgb(250, 231, 231);
+}
+
+#submit{
+    width: 204px;
+}
+
+div.work{
+    width:600px;
+    min-height: 500px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    border-radius: 20px;
+    filter: brightness(35%)  blur(3px);
+}
+
